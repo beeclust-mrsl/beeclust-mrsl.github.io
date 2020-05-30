@@ -1621,24 +1621,8 @@ figure.effect-oscar:hover img {
   transition: all 300ms ease;
 }
 
-.mentor-social a.fb:hover {
-  background: #325c94;
-}
-
-.mentor-social a.twt:hover {
-  background: #00abdc;
-}
-
-.mentor-social a.gplus:hover {
-  background: #dd4b39;
-}
-
-.mentor-social a.linkdin:hover {
-  background: #007bb6;
-}
-
-.mentor-social a.dribble:hover {
-  background: #ea4c89;
+.mentor-social a.icon:hover {
+  background: #fcd30b;
 }
 
 /* Team list */
