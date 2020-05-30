@@ -722,8 +722,8 @@ blockquote {
   position: absolute;
   left: 0;
   padding: 3px 15px 10px;
-  width: 14%;
-  height: 62px;
+  max-width: 14%;
+  height: auto;
   line-height: 62px;
 }
 
