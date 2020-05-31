@@ -365,6 +365,10 @@ h2.entry-title a:hover{
 	border: 1px solid #fcd30b;
 }
 
+.achievements-carousel .item a:hover{
+	border: 1px solid #fcd30b;
+}
+
 .footer ul li a:hover{
 	color: #fcd30b;
 }

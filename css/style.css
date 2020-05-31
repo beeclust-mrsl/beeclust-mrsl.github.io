@@ -300,6 +300,10 @@ blockquote {
   padding: 120px 0;
 }
 
+.achievements.angle {
+  padding: 120px 0;
+}
+
 /* Parallax */
 .parallax {
   background-size: cover !important;
@@ -1637,6 +1641,84 @@ figure.effect-oscar:hover img {
   margin-right: 30px;
 }
 
+/* Events
+================================================== */
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.blog-home2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.blog-home2 h1,
+.blog-home2 h2,
+.blog-home2 h3,
+.blog-home2 h4,
+.blog-home2 h5,
+.blog-home2 h6 {
+  color: #3e4555;
+}
+
+.blog-home2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.blog-home2 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.blog-home2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.blog-home2 .text-themecolor {
+  color: #fcd30b;
+}
+
+.blog-home2 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.blog-home2 a.link {
+  color: #3e4555;
+}
+
+.blog-home2 a.link:hover {
+  color: #fcd30b;
+}
+
+.blog-home2 .on-hover {
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.blog-home2 .on-hover:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.blog-home2 .date-pos {
+  right: 10px;
+  top: 10px;
+}
+
+.blog-home2 .date-pos span {
+  font-size: 30px;
+  line-height: 30px;
+}
+.blog-home2 .bg-info-gradiant {
+    background: #ffe14f;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ffe14f 0%, #ffd400 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ffe14f), to(#ffd400));
+    background: -webkit-linear-gradient(left, #ffe14f 0%, #ffd400 100%);
+    background: -o-linear-gradient(left, #ffe14f 0%, #ffd400 100%);
+    background: linear-gradient(to right, #ffe14f 0%, #ffd400 100%);
+}
+
 /* Pricing table
 ================================================== */
 .pricing {
@@ -1956,6 +2038,82 @@ figure.effect-oscar:hover img {
   padding: 10px;
   transition: all 350ms;
 }
+
+
+/* Achievements
+================================================== */
+
+.achievements {
+  background: #fcd30b;
+  color: #3e4555;
+  padding-bottom: 80px;
+}
+
+.achievements-content {
+  padding: 40px 0;
+}
+
+.achievements h2.title {
+  border-left: 0;
+  color: #fff;
+}
+
+
+
+.achievements h1,
+.achievements h2,
+.achievements h3,
+.achievements h4,
+.achievements h5,
+.achievements h6 {
+  color: #3e4555;
+}
+
+.achievements .font-weight-medium {
+  font-weight: 500;
+}
+
+.achievements .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.achievements .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.achievements .text-themecolor {
+  color: #fcd30b;
+}
+
+.achievements h5 {
+  line-height: 15px;
+  font-size: 14px;
+}
+
+.achievements a.link {
+  color: #3e4555;
+}
+
+.achievements .date-pos {
+  font-size: 10px;
+  right: 0px;
+  top: 10px;
+}
+
+.achievements .date-pos span {
+  color: #fff;
+  font-weight: 500;
+  line-height: 0px;
+}
+
+.achievements .bg-info-gradiant {
+  background: #3e4555;
+  height: 10px;
+}
+
+
+
 
 /* Twitter
 ================================================== */
@@ -2907,6 +3065,10 @@ iframe {
 
 /* Clients */
 .landing_page_clients {
+  padding-top: 30px;
+}
+
+.landing_page_achievements {
   padding-top: 30px;
 }
 

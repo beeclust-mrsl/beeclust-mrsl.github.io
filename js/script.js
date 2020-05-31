@@ -142,7 +142,23 @@ jQuery(function ($) {
     navigation: false, // Show next and prev buttons
     slideSpeed: 400,
     pagination: false,
-    items: 5,
+    items: 4,
+    rewindNav: true,
+    itemsDesktop: [1199, 3],
+    itemsDesktopSmall: [979, 3],
+    stopOnHover: true,
+    autoPlay: true
+
+  });
+
+    //Clients
+
+  $('#achievements-carousel').owlCarousel({
+
+    navigation: false, // Show next and prev buttons
+    slideSpeed: 40,
+    pagination: true,
+    items: 4,
     rewindNav: true,
     itemsDesktop: [1199, 3],
     itemsDesktopSmall: [979, 3],
