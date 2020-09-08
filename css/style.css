@@ -2661,6 +2661,10 @@ ul.arrow li:before {
   padding: 20px 0 10px;
 }
 
+.entry-content li {
+  margin-bottom: 20px
+}
+
 /* Blog author */
 .about-author {
   background: #f2f2f2;
